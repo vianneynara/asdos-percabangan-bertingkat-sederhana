@@ -9,11 +9,11 @@ akan dijalankan bila dan hanya bila ekspresi yang diberikan bernilai benar.
 Terdapat beberapa macam percabangan kondisi dalam Java.
 Berikut tabel yang menjelasakan beberapa macamnya:
 
-| Pernyataan      | Penggunaan                                                                                                                      |
-|-----------------|---------------------------------------------------------------------------------------------------------------------------------|
-| `if (...)`      | Mengawali percabangan keputusan, jika ekspresi bernilai benar, maka blok kode di dalamnya akan dijalankan.                      |
-| `else if (...)` | Jika ekspresi pada `if` atau `else if` sebelumnya bernilai salah namun benar pada ekspresi sekarang, maka blok kode dijalankan. |
-| `else`          | Jika semua ekspresi sebelumnya pada `if` dan `else if` bernilai salah, maka blok kode di dalamnya akan dijalankan.              |
+| Pernyataan      | Penempatan             | Penggunaan                                                                                                                      |
+|-----------------|------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| `if (...)`      | Di awal                | Mengawali percabangan keputusan, jika ekspresi bernilai benar, maka blok kode di dalamnya akan dijalankan.                      |
+| `else if (...)` | Setelah `if`           | Jika ekspresi pada `if` atau `else if` sebelumnya bernilai salah namun benar pada ekspresi sekarang, maka blok kode dijalankan. |
+| `else`          | Setelah `if`/`else if` | Jika semua ekspresi sebelumnya pada `if` dan `else if` bernilai salah, maka blok kode di dalamnya akan dijalankan.              |
 
 ## Susah nih nangkepnya, bisa digambarin secara visual?
 
