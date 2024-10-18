@@ -65,7 +65,6 @@ JIKA (totalBelanja LEBIH BESAR ATAU SAMA DENGAN 300.000) MAKA
         CETAK "Diskon (MAKS)" + potongan
     SELAIN ITU
         CETAK "Diskon" + potongan
-    AKHIR JIKA
 SELAIN ITU
     CETAK "Tidak dapat diskon"
 
