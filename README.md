@@ -1,8 +1,9 @@
 # Percabangan kondisi dalam Java
 
 Percabangan kondisi merupakan hal dasar dalam pemrograman yang memudahkan
-kita untuk membuat keputusan berdasarkan kondisi yang terjadi. Sebuah kondisi
-akan dijalankan bila dan hanya bila ekspresi yang diberikan bernilai benar.
+kita untuk membuat keputusan berdasarkan kondisi yang terjadi. Sebuah cabang
+keputusan akan dijalankan bila dan hanya bila ekspresi yang diberikan bernilai
+benar.
 
 ## Macam-macam percabangan kondisi
 
