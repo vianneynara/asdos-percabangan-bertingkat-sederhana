@@ -29,13 +29,14 @@ public class B_PercabanganBertingkat {
 		double totalBayar = 0.0;
 		String namaPelanggan;
 
-		// input
+		// cetak dan input total belanja
 		System.out.print("Total belanja: Rp ");
 		totalBelanja = sc.nextDouble();
 
 		// memakan \n yang tersisa dari nextDouble/nextInt/nextLong/...
 		sc.nextLine();
 
+		// cetak dan input nama pelanggan
 		System.out.print("Nama Pelanggan: ");
 		namaPelanggan = sc.nextLine();
 
@@ -49,7 +50,9 @@ public class B_PercabanganBertingkat {
 		/* Percabangan LUAR Dimulai */
 		if (totalBelanja >= 300_000) {
 			potongan = 0.15 * totalBelanja;
-			/* Percabangan DALAM Dimulai */
+			/* Percabangan DALAM Dimulai: */
+			// 1. JIKA potongan bernilai lebih besar dari 150000: Pastikan potongannya hanya 150000
+			// 2. SELAIN ITU: Biarkan saja potongan aslinya
 			if (potongan > 150_000) {
 				potongan = 150_000;
 				System.out.printf("%-20s Rp %20s\n", "Diskon (MAKS)", String.format("%,.0f", potongan));

@@ -18,17 +18,21 @@ public class A_PercabanganSederhana {
 	public static void main(String[] args) {
 		// deklarasi variabel
 		Scanner sc = new Scanner(System.in);
+
 		int bil1;
 		int bil2;
 		int selisih;
 
-		// input
+		// input: integer
 		System.out.print("Masukkan bilangan pertama: ");
 		bil1 = sc.nextInt();
 		System.out.print("Masukkan bilangan kedua: ");
 		bil2 = sc.nextInt();
 
 		/* Percabangan Dimulai */
+		// JIKA bil1 SAMA DENGAN bil2: Terangkan
+		// NAMUN JIKA bil1 LEBIH BESAR DARI bil2: Terangkan
+		// SELAIN ITU: Terangkan
 		if (bil1 == bil2) {
 			System.out.println("Bilangan pertama dan kedua sama besar.");
 		} else if (bil1 > bil2) {
@@ -38,7 +42,7 @@ public class A_PercabanganSederhana {
 		}
 		/* Percabangan Selesai */
 
-		selisih = bil2 - bil1;
+		selisih = bil2 - bil1;					// hitung selisih bil1 dengan bil2
 
 		// output
 		System.out.println("Selisih bilangan kedua dan pertama adalah " + selisih);
